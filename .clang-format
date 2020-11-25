@@ -1,0 +1,9 @@
+# Defines the Google style for automatic reformatting.
+# http://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+# Run manually to reformat a file:
+# clang-format -i --style=file <file>
+Language: Cpp
+BasedOnStyle: Google
+# ColumnLimit defaults to 80.
+ColumnLimit: 100
